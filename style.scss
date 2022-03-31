@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+//header 
+
+header {
+    height: 800px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 144px;
+    padding-right: 159px;
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+
+    &__link {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-left: 30px;
+    }
+}
+
+.top {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+
+    &__content {
+        padding-left: 144px;
+        padding-top: 144px;
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 80px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        position: absolute;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        color: #FFFFFF;
+        padding-top: 10px;
+    }
+
+    &__button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #FC0A7E;
+        border-radius: 3px;
+        padding: 20px 40px;
+        position: absolute;
+        margin-top: 99px;
+    }
+}
+
+//main
+//Nullam
+
+.nullam {
+    background: #1B1B1B;
+    height: 957px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heading_4 {
+        padding-top: 100px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+    }
+
+    &__heading_2 {
+        padding-top: 30px;
+        width: 607px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        padding-top: 55px;
+    }
+}
+
+.cay {
+
+    //Cay Top
+    &__top {
+        margin-top: 80px;
+    }
+
+    &__top,
+    &__mid,
+    &__bot {
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__content_top,
+    &__content_mid,
+    &__content_bot {
+        align-self: center;
+        padding-right: 195px;
+    }
+
+    &__heading_4 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+    }
+
+    &__heading_2 {
+        padding-top: 30px;
+        width: 302px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 48px;
+        color: #000000;
+    }
+
+    &__text {
+        padding-top: 22px;
+        width: 306px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #6B6B6B;
+    }
+
+    //Cay Mid 
+
+    &__mid,
+    &__bot {
+        padding-top: 160px;
+    }
+
+    &__img_mid {
+        padding-right: 195px;
+    }
+
+}
+
+//Skill
+
+.skill {
+    margin-top: 160px;
+
+    &__card_box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__h3 {
+        padding-top: 40px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__text {
+        padding-top: 17px;
+        width: 371px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #6B6B6B;
+    }
+}
+
+//Stat
+
+.stat {
+    margin-top: 160px;
+
+    &__box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__h2 {
+        font-weight: 400;
+        font-size: 59px;
+        line-height: 90px;
+        text-align: center;
+        color: #333333;
+    }
+
+    &__h4 {
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+//Dish
