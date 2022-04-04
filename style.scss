@@ -252,3 +252,97 @@ header {
 }
 
 //Dish
+
+.dish {
+    margin-top: 200px;
+
+    &__top,
+    &__mid {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__mid {
+        margin-top: 160px;
+    }
+
+    &__heading_4 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+    }
+
+    &__heading_2 {
+        margin-top: 25px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 48px;
+        color: #000000;
+    }
+
+    &__h2_dish1 {
+        width: 258px;
+    }
+
+    &__text {
+        margin-top: 27px;
+        width: 330px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #6B6B6B;
+    }
+
+    &__bottom {
+        margin-top: 162px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__bot_text1 {
+        width: 700px;
+        margin-top: 65px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        color: #6B6B6B;
+    }
+
+    &__bot_text2 {
+        margin-left: 60px;
+        margin-top: 17px;
+        display: flex;
+    }
+
+    &__bot_img2 {
+        padding: 0 20px;
+    }
+
+    .tochka {
+        margin-top: 88px;
+    }
+
+    .tochka2 {
+        margin-left: 16px;
+    }
+}
+
+//Users
+
+.users {
+    margin-top: 142px;
+    text-align: center;
+
+    &__app1 {
+        margin-bottom: 118px;
+    }
+
+}
+
+//Get Start
