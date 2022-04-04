@@ -338,11 +338,139 @@ header {
 .users {
     margin-top: 142px;
     text-align: center;
+    height: 676px;
 
     &__app1 {
         margin-bottom: 118px;
     }
 
+    &__app2 {
+        width: 100%;
+    }
+
 }
 
-//Get Start
+//Bot
+
+.bot {
+    height: 475px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &__content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__buttons {
+        padding-top: 40px;
+    }
+
+    &__button1,
+    &__button2 {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__button1 {
+        background: #FC0A7E;
+        border-radius: 3px;
+        padding: 20px 40px;
+    }
+
+    &__button2 {
+        background: transparent;
+        border-radius: 3px;
+        border: 1px solid #c25187;
+        padding: 20px 40px;
+    }
+}
+
+//Feedback
+
+.feedback {
+    height: 463px;
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 129px;
+    box-sizing: border-box;
+
+    &__heading {
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    &__h4 {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #6B6B6B;
+    }
+
+    &__form {
+        display: flex;
+        padding-top: 40px;
+    }
+
+    &__input {
+        width: 311px;
+        height: 70px;
+        padding-left: 20px;
+        display: block;
+    }
+
+    &__button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        padding: 22px;
+        background: #FC0A7E;
+        border: #FC0A7E;
+    }
+}
+
+//Footer
+
+.footer {
+    height: 242px;
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__box {
+        display: flex;
+        margin-top: 30px;
+
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #6B6B6B;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
